@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "Email Finder",
+    "version": "1.0",
+    "description": "Find email addresses on any website",
+    "permissions": ["activeTab"],
+    "browser_action": {
+      "default_popup": "popup.html",
+      "16": "./images/16-16.png",
+      "48": "./images/48-48.png",
+      "128": "./images/128-128.png"
+  },
+
+  "icons": {
+    "16": "./images/16-16.png",
+    "48": "./images/48-48.png",
+    "128": "./images/128-128.png"
+  },
+
+
+    "content_scripts": [
+      {
+        "matches": ["http://*/*", "https://*/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  

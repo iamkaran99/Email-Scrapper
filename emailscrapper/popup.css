@@ -1,0 +1,32 @@
+body{
+    min-width: 500px;
+    background-color: wheat;
+}
+
+h1{
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}
+
+button{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+li{
+    list-style:decimal;
+    align-items: center;
+    color: black;
+    justify-content: center;
+    text-align: center;
+    left: 10px;
+    font-size: 1rem;
+    font-family: sans-serif;
+    border-bottom: 1px solid black;
+}
