@@ -1,2 +1,2 @@
 # Email-Scrapper
-Javascript based chrome extension that Finds emails from webpage 
+Javascript based chrome extension that Finds emails from webpag
